@@ -3,7 +3,9 @@
 组件化相信大家都很清楚他是什么，Android的一种开发架构，并且备受团队推崇，确实组件化在我看来对团队协作方面是帮助巨大的，随着应用开发的业务不断累积，我觉得我们更加应该关注架构的搭建，而不是一味的实现代码，这种重复工作以及无效时间就太多了，最近也阅读了很多关于架构的书籍，收获良多，所以今天的文章，就带领大家来领略一下组件化架构的美妙。
 
 我在慕课网的Android新课核心知识点如下：
+
 **Android X/音视频开发/社交匹配算法/即时通信/语音识别/App优化/安全加固**
+
 [手把手完成商业级社交App开发进阶Android高级工程师](https://coding.imooc.com/class/390.html)
 
 ## 一.组件化概括
@@ -67,7 +69,7 @@
 
 分别对应的是微信，联系人，发现，我和基类。
 
-![图片]![图片4](https://uploader.shimo.im/f/uu40GIrpieAlEhjg.png)
+![图片4](https://uploader.shimo.im/f/uu40GIrpieAlEhjg.png)
 
 ### 3.自定义Gradle
 我们在Project的根目录创建一个config.gradle来统筹我们的依赖和版本信息
@@ -166,7 +168,7 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 
 只要在Activity前一行添加path即可定义目标地址
 
-![图片]![图片19](https://uploader.shimo.im/f/BIn69IDL9Z0Ar2dw.png)
+![图片19](https://uploader.shimo.im/f/BIn69IDL9Z0Ar2dw.png)
 
 这里我封装了一个帮助类提供跳转
 ![图片20](https://uploader.shimo.im/f/8cmtBC2eO5cReF3y.png)
@@ -180,7 +182,7 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 - 2.Fragment以及Adapter中绑定ButterKnife.bind(this,mView);
 - 3.Module中引用ID需要使用R2，如图
 
-![图片]![图片22](https://uploader.shimo.im/f/5RMH5aMjGeMICCXF.png)
+![图片22](https://uploader.shimo.im/f/5RMH5aMjGeMICCXF.png)
 
 ## 三.组件化的实现
 这里我基于此架构写了一个仿微信UI的Demo内容，让大家更加清晰的认识组件化，那么我们先来看下预览：
@@ -193,10 +195,10 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 
 我们可以全部都单独的实现运行
 
-![图片]![图片25](https://uploader.shimo.im/f/sFEJfi3ZWHcDlo4Z.png)
+![图片25](https://uploader.shimo.im/f/sFEJfi3ZWHcDlo4Z.png)
 
 而在模拟器上的表现如下：
-![图片]![图片26](https://uploader.shimo.im/f/DiIwUpdNIvIki7YG.png)
+![图片26](https://uploader.shimo.im/f/DiIwUpdNIvIki7YG.png)
 
 ## 四.组件化的问题
 ### 1.资源名冲突
@@ -211,7 +213,7 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 ### 4.组件化与MVP
 看到不少开源使用了组件化还使用了MVP，我自己也尝试写了一个，只能感叹代码量增加很多，敲得手抖疼了，随即开始思考这个架构，组件化应对的是业务解耦，而MVP，更倾向于代码解耦，结合起来肯定代码更加清晰，更加完善，但是我无法提供一个这么庞大的项目练手，所以如果你的项目不是很庞大，可以择优选择，架构再好，也要看适不适合。
 
-![图片]![图片28](https://uploader.shimo.im/f/98oZan7quqwWHmBB.png)
+![图片28](https://uploader.shimo.im/f/98oZan7quqwWHmBB.png)
 
 ## 五.结尾
 组件化好处还是很多的，比如提升编译速度，毕竟都是单Module开发，高度统筹的情况下，还能基于BaseModule来减少重复代码，要是发现哪个Module还单独写工具类，拉出去枪毙。
@@ -222,13 +224,17 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 [AndroidComponent](https://github.com/LiuGuiLinAndroid/AndroidComponent)
 
 我在慕课网的Android新课核心知识点如下：
+
 **Android X/音视频开发/社交匹配算法/即时通信/语音识别/App优化/安全加固**
+
 [手把手完成商业级社交App开发进阶Android高级工程师](https://coding.imooc.com/class/390.html)
 
 博客地址：
+
 [Android 组件化架构概要](https://liuguilin.blog.csdn.net/article/details/102921040)
 
 我的知识星球，欢迎你的加入
 
-![图片]![图片29](https://uploader.shimo.im/f/x7rLEcLp5bQyimlE.jpg)
+![图片29](https://uploader.shimo.im/f/x7rLEcLp5bQyimlE.jpg)
 
+QQ交流群：417046685
