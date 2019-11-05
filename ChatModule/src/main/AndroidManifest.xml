@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liuguilin.chatmodule">
+
+    <application>
+        <activity android:name=".ChatRunActivity"/>
+        <activity android:name=".ui.ChatInfoActivity"/>
+    </application>
+
+</manifest>
+
+
+

@@ -1,0 +1,2 @@
+include ':app', ':BaseModule', ':ChatModule', ':MeModule', ':ContactModule', ':FindModule'
+rootProject.name='AndroidComponent'

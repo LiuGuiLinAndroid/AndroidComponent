@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/img_contact_1" />
+
+        <TextView
+            android:id="@+id/tv_contact_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/img_contact_2" />
+
+        <TextView
+            android:id="@+id/tv_contact_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/img_contact_3" />
+
+        <TextView
+            android:id="@+id/tv_contact_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/img_contact_4" />
+
+        <TextView
+            android:id="@+id/tv_contact_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
