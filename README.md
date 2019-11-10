@@ -215,7 +215,18 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 
 ![图片28](https://uploader.shimo.im/f/98oZan7quqwWHmBB.png)
 
-## 五.结尾
+## 五.ARouter拦截
+
+我们在一些特殊的场景的时候，需要拦截跳转，一般的例子比如跳转登录页的时候就可以拦截了，那么ARouter的拦截怎么处理的呢？我们来看下代码
+
+![图片](https://uploader.shimo.im/f/Ha870VhqzwgJuddI.png)
+
+我们只需要配置Interceptor的注解即可，其中优先级和name可以自己定义，而init是初始化的，并且只会走一次，主要还是在process中我们可以根据判断条件来控制是否拦截，这里我写了一些伪代码，如果想获取当前Activity对象的话，可以在Application中监听Activity生命周期获得
+
+![图片](https://uploader.shimo.im/f/XKVSJnQHL5Yi5OVk.png)
+
+
+## 六.结尾
 组件化好处还是很多的，比如提升编译速度，毕竟都是单Module开发，高度统筹的情况下，还能基于BaseModule来减少重复代码，要是发现哪个Module还单独写工具类，拉出去枪毙。
 
 看那文章毕竟是片面的，我还是由衷的希望读者在看完文章之后下载代码来运行一遍，看看代码的结构，那么理解这个demo也就八九不离十了，再结合自己的理解，就会看到更加广阔的天地了。
@@ -238,3 +249,6 @@ BaseActivity中，我们初始化了黄油刀，以及封装了View，这样的�
 ![图片29](https://uploader.shimo.im/f/x7rLEcLp5bQyimlE.jpg)
 
 QQ交流群：417046685
+
+
+
